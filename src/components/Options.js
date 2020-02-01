@@ -4,16 +4,16 @@ import Option from './Option';
 const Options = (props) => (
   <div>
     <div className="widget-header">
-      <h3 className="widget-header__title">Your Options</h3>
+      <h3 className="widget-header__title">你的選項</h3>
       <button
         className="button button--link"
         onClick={props.handleDeleteOptions}
       >
-        Remove All
+        移除選項
     </button>
     </div>
 
-    {props.options.length === 0 && <p className="widget__message">Please add an option to get started!</p>}
+    {props.options.length === 0 && <p className="widget__message">請新增選項，讓電腦能幫你選!</p>}
     {
       props.options.map((option, index) => (
         <Option

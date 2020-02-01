@@ -9,7 +9,7 @@ const Option = (props) => (
         props.handleDeleteOption(props.optionText);
       }}
     >
-      remove
+      移除
       </button>
   </div>
 );

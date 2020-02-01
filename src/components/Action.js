@@ -7,7 +7,7 @@ const Action = (props) => (
       onClick={props.handlePick}
       disabled={!props.hasOptions}
     >
-      What should I do?
+      我應該選哪什麼來做呢?
       </button>
   </div>
 );
